@@ -2,7 +2,7 @@ package Crypt::Skip32::Base64URLSafe;
 use strict;
 use warnings;
 use MIME::Base64::URLSafe;
-our $VERSION = '0.32';
+our $VERSION = '0.33';
 use base 'Crypt::Skip32';
 
 sub encrypt_number_b64_urlsafe {
@@ -60,3 +60,14 @@ It should be 10 bytes.
 =head1 AUTHOR
 
 Leon Brocard <acme@astray.com>.
+
+=head1 COPYRIGHT
+
+Copyright (C) 2008, Leon Brocard
+
+=head1 LICENSE
+
+This module is free software; you can redistribute it or modify it under
+the same terms as Perl itself.
+
+

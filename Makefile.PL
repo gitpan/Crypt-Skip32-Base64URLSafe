@@ -5,6 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME         => 'Crypt::Skip32::Base64URLSafe',
     VERSION_FROM => 'lib/Crypt/Skip32/Base64URLSafe.pm',
+    ABSTRACT     => 'Create URL-safe encodings of 32-bit values',
     AUTHOR       => 'Leon Brocard <acme@astray.com>',
     LICENSE      => 'perl',
     PREREQ_PM    => {

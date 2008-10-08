@@ -3,7 +3,7 @@ NAME
     values
 
 SYNOPSIS
-      use Crypt::Skip32::Base64URLSafe
+      use Crypt::Skip32::Base64URLSafe;
       my $key    = pack( 'H20', "112233445566778899AA" ); # Always 10 bytes!
       my $cipher = Crypt::Skip32::Base64URLSafe->new($key);
       my $b64    = $cipher->encrypt_number_b64_urlsafe(3493209676); # baJxAA
@@ -30,4 +30,11 @@ DESCRIPTION
 
 AUTHOR
     Leon Brocard <acme@astray.com>.
+
+COPYRIGHT
+    Copyright (C) 2008, Leon Brocard
+
+LICENSE
+    This module is free software; you can redistribute it or modify it under
+    the same terms as Perl itself.
 

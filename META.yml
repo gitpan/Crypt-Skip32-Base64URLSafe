@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Crypt-Skip32-Base64URLSafe
-version:             0.32
-abstract:            ~
+version:             0.33
+abstract:            Create URL-safe encodings of 32-bit values
 license:             perl
 author:              
     - Leon Brocard <acme@astray.com>
